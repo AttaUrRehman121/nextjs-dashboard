@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { RobotoFont } from '@/app/ui/fonts/font';
+import { RobotoFont } from '@/app/ui/font';
 
 
 export default function RootLayout({
