@@ -1,7 +1,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimental: {
+    ppr: 'incremental' // Enable Partial Prerendering its help to improve performance 
+  }
 };
 
 export default nextConfig;
