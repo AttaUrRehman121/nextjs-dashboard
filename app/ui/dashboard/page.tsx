@@ -33,4 +33,5 @@ export default async function Page() {
             </div>
         </main>
     );
+    // // NOTE: Uncomment the LatestInvoices component when you have the latestInvoices data available
 }
